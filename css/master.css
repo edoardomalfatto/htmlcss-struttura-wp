@@ -19,6 +19,7 @@ section {
   height: 60vh;
   width: 100%;
   background-color: yellow;
+  margin:3vh 0;
 }
 
 .main_header {
@@ -52,4 +53,11 @@ margin-bottom: 2%;
   background-color: rgb(36, 209, 199);
   float:left;
   margin:2%;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: purple;
+  margin-top: 1vh;
 }
