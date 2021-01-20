@@ -33,26 +33,26 @@ section {
   width: 100%;
   background-color: blue;
 }
-.main_container::after{
+.main_container::after {
   content: "";
   display: table;
   clear:both;
 }
 .maincontent.right ,
 .maincontent.left {
-height: 94%;
-width: 18%;
-background-color: rgb(36, 209, 199);
 float:left;
-margin-top: 2%;
-margin-bottom: 2%;
+height: calc(100% - 4vh);
+width: 20%;
+background-color: rgb(36, 209, 199);
+margin-top: 2vh;
+margin-bottom: 2vh;
 }
 .maincontent.center {
-  height: 94%;
-  width: 60%;
-  background-color: rgb(36, 209, 199);
   float:left;
-  margin:2%;
+  height: calc(100% - 4vh);
+  width: calc(60% - 4vh) ;
+  background-color: rgb(36, 209, 199);
+  margin:2vh;
 }
 
 footer {
